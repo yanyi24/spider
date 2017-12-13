@@ -1,0 +1,24 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "爬取网上的一些东西到本地",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanyi24/spider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanyi24/spider/issues"
+  },
+  "homepage": "https://github.com/yanyi24/spider#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "eslint": "^4.13.1"
+  }
+}
