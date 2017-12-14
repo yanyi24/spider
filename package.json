@@ -1,7 +1,7 @@
 {
   "name": "spider",
-  "version": "1.0.0",
-  "description": "爬取网上的一些东西到本地",
+  "version": "2.0.0",
+  "description": "爬取网上的html内容到本地HTML文件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,10 @@
     "url": "https://github.com/yanyi24/spider/issues"
   },
   "homepage": "https://github.com/yanyi24/spider#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.2",
     "eslint": "^4.13.1"
   }
 }
