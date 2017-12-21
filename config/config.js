@@ -1,12 +1,16 @@
 module.exports = {
-	netposition: 'https://www.multcloud.com/support-clouds/',
-	localposition: 'C:\\Users\\yanyi\\Desktop\\support-clouds',
+	netposition: 'https://www.multcloud.com/tutorials/',
+	localposition: 'C:\\Users\\yanyi\\Desktop\\MC-articles\\new\\tutorials',
 	netselectors: [
-		'.function-drop h2:first-child',
-		'.function-drop span:nth-child(2)'
+		'.txtContent center h1',
+		'.txtContent center h1',
+		'.txtContent center h1',
+		'#left'
 	],
 	localselectors: [
-		'.media2 .container h2:first-child',
-		'.media2 .container p.text-center'
+		'head title',
+		'.banner h1',
+		'.banner .container>p span',
+		'.article-content .addContent'
 	]
 };
